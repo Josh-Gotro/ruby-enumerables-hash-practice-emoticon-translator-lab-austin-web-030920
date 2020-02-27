@@ -16,12 +16,8 @@ def load_library(path)
   new
 end
 
-def get_japanese_emoticon(hash)
-  japanese_emoticon = []
-  hash.map.values do |value|
-binding.pry
-  end
-  japanese_emoticon
+def get_japanese_emoticon
+
 end
 
 def get_english_meaning
