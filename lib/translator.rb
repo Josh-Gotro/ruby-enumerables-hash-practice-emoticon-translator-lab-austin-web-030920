@@ -18,8 +18,7 @@ def load_library(path)
   new
 end
 
-def get_japanese_emoticon
-  # (file_path, emoticon)
+def get_japanese_emoticon(file_path, emoticon)
   # result = load_library(file_path)['get_emoticon'][emoticon]
   # result ? result : "Sorry, that emoticon was not found"
 end
