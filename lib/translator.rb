@@ -12,7 +12,7 @@ def load_library(path)
     # key #=> "angel"
     # value #=> ["O:)", "☜(⌒▽⌒)☞"]
     new['get_emoticon'][value[0]] = emoticons[key][1]
-    # new['get_emoticon'[value[0]] = 
+    # new['get_emoticon'[value[0]] = "☜(⌒▽⌒)☞"
     new['get_meaning'][value[1]] = key
     binding.pry
   end
