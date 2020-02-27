@@ -9,7 +9,7 @@ def load_library(path)
   new = {'get_meaning' => {}, 'get_emoticon' => {}}
 
   emoticons.each do |key,value|
-    new['get_emoticon'][value[0]] = emoticons[key][1]
+    ['get_emoticon'][value[0]]new = emoticons[key][1]
     binding.pry
     new['get_meaning'][value[1]] = key
   end
