@@ -18,13 +18,12 @@ def load_library(path)
   new
 end
 
-def get_japanese_emoticon
-
+def get_japanese_emoticon(file_path, emoticon)
+  result = load_library(file_path)['get_emoticon'][emoticon]
+  result ? result : "Nope, try again!"
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file_path, emoticon)
+  result = load_library(file_path)['get_meaning'][emoticon]
+  result ? result : "Nope, try again!"
 end
-
-#ruby-enumerables-hash-practice-emoticon-translator-lab-austin-web-030920/
-# emoticons = YAML.load_file(ruby-enumerables-hash-practice-emoticon-translator-lab-austin-web-030920/lib/emoticons.yml)
